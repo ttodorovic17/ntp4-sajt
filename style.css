@@ -13,8 +13,12 @@ h3
 
 body
 {
-	margin:5em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3em;
+	padding: 2em;
 	border: dashed blue 1px;
+	width: 70%;
 }
 
 a:link
