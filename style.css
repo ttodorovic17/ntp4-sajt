@@ -15,10 +15,37 @@ body
 {
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 3em;
-	padding-top: 2em;
+	margin-top: 1em;
+	
 	width: 80%;
 	background-color: #fef6e6;
+}
+
+header
+{
+	width: 100%;
+	background-color: #ffcc99;
+	height: 4em;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left:10%;
+}
+
+header h1{
+	padding:0.5em;
+}
+
+
+footer
+{
+	width: 100%;
+	background-color: #ffcc99;
+	height: 3em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1em;
+	padding-left:10%;
+	float:left;
 }
 
 a:link
@@ -68,7 +95,7 @@ a:hover
 	position:fixed;
     top:5em; left:10%;
 	text-align: center;
-	padding: 1em;
+	padding: 1%;
 	width: 20%;
 	float: left;
 }
