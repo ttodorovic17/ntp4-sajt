@@ -15,7 +15,7 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div class="list-group, menu">
+	<div id="nav" class="list-group menu">
 		<h3>Navigation menu</h3>
 		<a href="#biography" class="list-group-item list-group-item-action">Biography</a>
 		<a href="#members" class="list-group-item list-group-item-action">Members</a>
@@ -25,45 +25,52 @@
 	<div id="space" class="left">
 	</div>
 	
-	<main id="main" class="center">
-		<div id="main">
-			<h1>VIDEOCLUB</h1>
-			<p>Videoclub is a French musical duo, formed in 2018 in Nantes by Adèle Castillon and Matthieu Reynaud.</p>
+	<main class="center">
+		<div id="intro">
+			<h1 class="sticky">VIDEOCLUB</h1>
+			<p>Videoclub is a French musical duo, formed in 2018 in Nantes by 
+			<a href="adele_castillon.html">Adèle Castillon</a>
+			and Matthieu Reynaud.</p>
 			<p>Their style of music is mainly electropop, with a retro feel and a strong 1980s influence.</p>
 			<p>They sing mainly in French and occasionally in English. Adèle Castillon mainly takes care of the writing of the lyrics and Matthieu Reynaud of the composition.</p>
 		</div>
 		
 		
 		<div id="biography">
-			<h2>Biography</h2>
-		</div>
+			<h2 class="sticky">Biography</h2>
+		
 		
 		<div id="debut">
-			<h3>Debut</h3>
+			<h3 >Debut</h3>
 			<p>The actress and YouTuber Adèle Castillon from Angers and the composer and musician Matthieu Reynaud 
 			from Amiens form the Videoclub duo in June 2018 in Nantes.</p>
 			<p>Their first single Amour Plastique, produced by Régis Reynaud (Matthieu's father), was a real success. 
 			A first concert follows which will be sold out on April 11, 2019 in Nantes. The group begins a first tour 
 			in summer 2019. Adèle Castillon and Matthieu Reynaud will perform notably at the Unaltrofestival in Milan 
-			and at the Delta Festival in Marseille. They are also scheduled for the Cabourg mon amour festival at the 
+			and at the Delta Festival in Marseille. They are also scheduled for the <i>Cabourg mon amour</i> festival at the 
 			end of June4.</p>
 			<p>The release of their new album was initially scheduled for 2020.</p>
-		</div>
+		
 		
 		<div id="members">
-			<h2>Members</h2>
-			<p> Adèle Castillon: vocals, keyboard (since 2018)<br>
-			Matthieu Reynaud: vocals, electric guitar, keyboard, drum machine, pad (since 2018)</p>
+			<h2 class="sticky">Members</h2>
+			<ul>
+				<li>Adèle Castillon: vocals, keyboard (since 2018)</li>
+				<li>Matthieu Reynaud: vocals, electric guitar, keyboard, drum machine, pad (since 2018)</li>
+			</ul>
+		</div>
+		</div>
+		
 		</div>
 		
 		<div id="discography">
-			<h2>Discography</h2>
-		</div>
+			<h2 class="sticky">Discography</h2>
+		
 		
 		<div id="singles">
 			<h3>Singles</h3>
-			<div class="container">           
-				<table class="table table-dark table-bordered" style="font-style:italic">
+			<div class="table-responsive-sm">           
+				<table class="table table-bordered" style="font-style:italic; table-bordered-color: black;">
 					<tr>
 						<th style="text-align:center; font-style:normal;">Title</th>
 						<th style="text-align:center; font-style:normal;">Year</th>
@@ -99,14 +106,16 @@
 			</div>
 			
 		</div>
+		</div>
 	</main>
 
 	<div id="info" class="right">
 		<h3>VIDEOCLUB</h3>
-		<img src="src/Adele_Castillon_y_Matthieu_Reynaud.jpg" alt="Adele Castillon y Matthieu Reynaud" width="90%" style="padding:1%"/>
+		<img id="profile" src="src/Adele_Castillon_y_Matthieu_Reynaud.jpg" alt="Adele Castillon y Matthieu Reynaud"/>
 		<p style="font-size:80%"> Matthieu Reynaud and Adele Castillon, 2020</p>
 		<h6>General information</h6>
-		<table border>
+		<div class="table-responsive">
+			<table class="table table-bordered">
 			<tr>
 				<td><b>Country of origin</b></td>
 				<td>
@@ -125,16 +134,20 @@
 				<td><b>Labels</b></td>
 				<td>Petit Lion Productions</td>
 			</tr>
-		</table>
+			</table>
+		</div>
 		<h6>Composition of the group</h6>
-		<table border>
+		<div class="table-responsive">
+			<table class="table table-bordered">
 			<tr>
 				<td style="vertical-align:top"><b>Members</b></td>
 				<td>Members Adèle Castillon<br>
 				Matthieu Reynaud</td>
 			</tr>
-		</table>
+			</table>
+		</div>
 	</div>
+	
 	
 </body>
 </html>
