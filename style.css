@@ -18,13 +18,13 @@ body
 	margin-top: 1em;
 	
 	width: 80%;
-	background-color: #fef6e6;
+	background-color: #efc4a9;
 }
 
 header
 {
 	width: 100%;
-	background-color: #ffcc99;
+	background-color: #ebb593;
 	height: 4em;
 	margin-left: auto;
 	margin-right: auto;
@@ -39,7 +39,7 @@ header h1{
 footer
 {
 	width: 100%;
-	background-color: #ffcc99;
+	background-color: #ebb593;
 	height: 3em;
 	margin-left: auto;
 	margin-right: auto;
@@ -50,12 +50,12 @@ footer
 
 a:link
 {
-	color: #000099;
+	color: #df5353;
 }
 
 a:visited
 {
-	color: purple;
+	color: #9e49d8;
 }
 
 a:hover 
@@ -104,7 +104,11 @@ a:hover
 {
 	position: sticky;
 	top: 0;
-	background-color: #fef6e6;
+	background-color: #efc4a9;
+}
+
+.list-group-item-mine {
+  background-color: #fff5e6;
 }
 
 main h1
