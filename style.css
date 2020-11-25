@@ -18,7 +18,8 @@ body
 	margin-top: 3em;
 	padding-top: 2em;
 	border: dashed blue 1px;
-	width: 70%;
+	width: 80%;
+	background-color: #fef6e6;
 }
 
 a:link
@@ -50,10 +51,10 @@ a:hover
 .menu
 {
 	position:fixed;
-    top:5em; left:15%;
+    top:5em; left:10%;
 	text-align: center;
 	padding: 1em;
-	width: 17%;
+	width: 20%;
 	float: left;
 	border: solid orange 1px;
 	
@@ -93,10 +94,15 @@ a:hover
 
 #info h6
 {
-	background-color: #CDC1C5;
+	background-color: #e77e7e;
 	margin-top:1%;
 	margin-bottom:1%;
 	padding: 1%;
 	color: black;
 }
 
+#info h3{ background-color:#e77e7e; padding:10px; }
+
+#info table{ width:100%; text-align:left; }
+
+#info td { width:50%; }
