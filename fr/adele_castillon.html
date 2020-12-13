@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-18"/>
+	<meta name="viewpoint" content="width=device-width, initial scale=1.0">
+	<title>VIDEOCLUB</title>
+	
+	<!-- CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+	<!-- jQuery and JS bundle w/ Popper.js -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+	
+	<link rel="stylesheet" href="../style.css">
+	
+	<script src="../script.js"></script>
+</head>
+<body>
+	<header>
+        <span style="white-space:nowrap">
+        <img id="logo" src="../src/logo.png"/>
+        <div class="container-lg">
+		<!--<h1>header</h1>-->
+        
+        <!--search bar-->
+        <span>
+        <input type="text" name="search" class="header-span" placeholder="Search...Does nothing">
+        </span>
+        <!--language change button-->
+		<span class="header-span">FR/<a href="../index.html">ENG</a></span><span class="header-span"></span>
+        
+        <!--dropdown menu-->
+        <div class="dropdown">
+            <button onclick="myDropdown()" class="dropbtn"></button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+        </div>
+        </span>
+	</header>
+    
+    <div id="header-decoy"></div>
+	
+    <!--container table-->
+	<div class="container">
+	<div class="row justify-content-md-center" >
+	<div class="col">
+	
+        <!--navigation menu on the left-->
+		<div id="nav" class="list-group" style="margin-bottom:10%">
+        <h3>Navigation menu</h3>
+		<a href="#top" class="list-group-item list-group-item-mine">Adèle Castillon</a>
+		<a href="#biography" class="list-group-item list-group-item-mine">Biographie</a>
+		<a href="#discography" class="list-group-item list-group-item-mine">Discographie</a>
+		<a href="#filmography" class="list-group-item list-group-item-mine">Filmographie</a>
+		<a href="#distinctions" class="list-group-item list-group-item-mine">Distinctions</a>
+		<h3 style="margin-top:20px">En relation</h3>
+		<a href="index.html" class="list-group-item list-group-item-mine">VIDEOCLUB</a>
+		</div> 
+	</div>
+	
+    <!--main text container, middle row-->
+	<div class="col-lg-6">
+		<main class="">
+			<div id="intro">
+				<h1 class="sticky">Adèle Castillon</h1>
+				<p>Adèle Castillon, née le 24 octobre 2001 à Angers, est une chanteuse, actrice, et youtubeuse française.</p>
+			</div>
+		
+			<div id="biography">
+				<h2 class="sticky">Biography</h2>
+		        <p>Adèle Castillon s'est fait connaitre du grand public grâce à ses vidéos à l'humour décalé, 
+				qu'elle publie depuis l'âge de 13 ans.</p>
+				<p>Très vite repérée par Daphné Thavaud, créatrice du Club Agence Artistique, elle obtient 
+				son premier rôle au cinéma en 2017 dans le film de Dominique Farrugia : <i>USous le même toit</i> 
+				et partage l'affiche avec Gilles Lellouche et Louise Bourgoin.</p>
+				<p>La même année, elle est envoyée à Dharamsala interviewer le dalaï-lama. La conversation 
+				est à l'origine de l'ouvrage <i>Faites la révolution !</i> publié en 2017, par Sofia Stril-Rever 
+				sur la base d'interviews du 14e dalaï-lama. Un documentaire de cette rencontre a été publié sur 
+				la plateforme Verticale.</p>
+				<p>En 2019, elle joue une adolescente inquiétante dans le film de Sébastien Marnier
+				<i>L'Heure de la sortie</i> où, en compagnie de ses camarades de classe, elle tourmente Laurent Lafitte.</p>
+				<p>En septembre 2018, elle crée, avec Matthieu Reynaud, Videoclub, un groupe électropop. 
+				Leur premier single Amour plastique, produit par Régis Reynaud, rencontre un certain succès. 
+				S'ensuit un premier concert qui se joue à guichet fermé le 11 avril 2019 à Nantes. Le groupe 
+				entame une première tournée l'été 2019. Adèle Castillon et Matthieu Reynaud se produisent notamment 
+				à l'Ulnatrofestival à Milan et au Delta Festival9 à Marseille. Ils sont également programmés au 
+				festival <i>Cabourg mon amour</i> fin juin.</p>
+			</div>
+		
+			<div id="discography">
+				<h2 class="sticky">Discographie</h2>
+		        <h3>Avec VIDEOCLUB</h3>
+			    <ul>
+				<li>2018:<i> <a href="https://youtu.be/5NjJLFI_oYs" target="_blank">Amour plastique</a></i></li>
+				<li>2018:<i> <a href="https://youtu.be/mv5SIoYB6Ls" target="_blank">Roi</a></i></li>
+				<li>2019:<i> <a href="https://youtu.be/xKJkzro8ArA" target="_blank">En nuit</a></i></li>
+				<li>2019:<i> <a href="https://youtu.be/qtPuCnKahMw" target="_blank">What Are You So Afraid Of(Cover)</a></i></li>
+				<li>2019:<i> <a href="https://youtu.be/cT5GghQwhFw" target="_blank">Mai</a></i></li>
+				<li>2020:<i> <a href="https://youtu.be/yoWR-EfgvJ0" target="_blank">Enfance 80</a></i></li>
+				<li>2020:<i> <a href="https://youtu.be/ejOjC-mTfA0" target="_blank">Euphories</a></i></li>
+            </ul>
+            </div>
+            
+		<div id="filmography">
+			<h2 class="sticky">Filmography</h2>
+			<div>
+				<h3>Cinema</h3>
+				<ul>
+					<li>2017:<i> Sous le même toit</i> de Dominique Farrugia: Violette</li>
+					<li>2019:<i> L'Heure de la sortie</i> de Sébastien Marnier: Clara</li>
+				</ul>
+			</div>
+		</div>
+        <div id="distinctions">
+			<h2 class="sticky">Distinctions</h2>
+			<div class="table-responsive">
+			<table class="table table-bordered" border width="100%">
+			<tr>
+				<td><b>Cérémonie</b></td>
+				<td><b>Année</b></td>
+				<td><b>Récompense</b></td>
+				<td><b>Résultat</b></td>
+			</tr>
+			<tr>
+				<td>Melty Future Awards</td>
+				<td>2017</td>
+				<td style="text-align:center">-</td>
+				<td>Lauréate</td>
+			</tr>
+			</table>
+			</div>
+		</div>
+            
+		</main>
+	</div>
+	
+    <!--info, about on the right-->
+	<div class="col">
+		<div id="info" class="container-md">
+        <h3>Adèle Castillon</h3>
+		<img id="profile" src="../src/Adele_Castillon.jpg" alt="Adele Castillon"/>
+		<p style="font-size:80%">Adèle Castillon en mars 2019.</p>
+		<h6>Informations générales</h6>
+		
+		<div class="table-responsive">
+			<table class="table table-bordered">
+				<tr>
+					<td><b>Naissance</b></td>
+					<td>24 juin 2001 (19 ans)<br>Angers, France</td>
+				</tr>
+				<tr>
+					<td><b>Activité principale</b></td>
+					<td>Chanteuse<br>Actrice<br>Youtubeuse</td>
+				</tr>
+				<tr>
+					<td><b>Années actives</b></td>
+					<td>Depuis 2014</td>
+				</tr>
+				<tr>
+					<td><b>Labels</b></td>
+					<td>Petit Lion Productions</td>
+				</tr>
+			</table>
+		</div>
+		
+		<h6>Composition du groupe</h6>
+		<div class="table-responsive">
+			<table class="table table-bordered">
+			<tr>
+				<td style="vertical-align:top"><b>Members</b></td>
+				<td>Members Adèle Castillon<br>
+				Matthieu Reynaud</td>
+			</tr>
+		</table>
+		</div>
+		</div>
+	</div>
+	</div>
+	
+    <!--section 2-->
+	<div>
+		<h2 class="sticky" style="text-align:center;">Chansons les plus populaires</h2>
+		<iframe width="80%" height="315" src="https://www.youtube.com/embed/5NjJLFI_oYs" 
+		frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+		gyroscope; picture-in-picture" style="display:block; padding:10px; margin:0 auto;" allowfullscreen></iframe>
+			
+		<iframe width="80%" height="315" src="https://www.youtube.com/embed/4NOMFBRfaT0" 
+		frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+		gyroscope; picture-in-picture" style="display:block; padding:10px; margin:0 auto;" allowfullscreen></iframe>
+	</div>
+	</div>
+    
+	<footer>
+		<!--<h1>header</h1>-->
+        <div class="container" id="footer-info">
+	    <div class="row justify-content-md-center" >
+	      <div class="col">
+            <p>made by: Tajana Todorovic<br>
+            e-mail: ttodorovic17@rg.edu.rs - <a href = "mailto: ttodorovic17@rg.edu.rs">Send E-mail</a></p>
+          </div>      
+          <div class="col">
+              <p>School: <a href="http://rg.edu.rs/">High School of Computing</a><br>
+              Address: Belgrade, Serbia</p>
+		  <!--pop-up-->
+          <div class="popup" onclick="myFunction()">CLICK
+              <span class="popuptext" id="myPopup">pop-up</span>
+          </div>
+          </div>
+        </div>
+        </div>
+        
+        <img id="bottom-logo" src="../src/logo.png"/>
+
+	</footer>
+	
+</body>
+
+</html>
