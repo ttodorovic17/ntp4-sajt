@@ -59,7 +59,7 @@ a:hover{color: hotpink;}
 .sticky
 {
 	position: sticky;
-	top: 0;
+	top: 62px;
 	background-color: #efc4a9;
 }
 
