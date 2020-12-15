@@ -51,8 +51,10 @@ a:hover{color: hotpink;}
 .header-span
 {
     font-size: 20px;
-    margin-top: 1%;
+    margin-top: 0.5%;
     display: inline;
+    float: right;
+    margin-left: 20px;
 }
 
 
