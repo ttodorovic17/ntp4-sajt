@@ -1,0 +1,117 @@
+body{
+    margin:0;
+    padding:0;
+	width: 100%;
+	background-color: #efc4a9;
+    text-align: center;
+    overflow: hidden;
+    font-size: 1.6rem;
+}
+
+.central-textlogo{
+    width: 300px;
+    position:relative;
+    margin-top: 4rem;
+    margin-right: auto;
+    margin-left: auto;
+    float: left;
+    margin-right: auto;
+    margin-left: 150px;
+}
+
+#logo{
+    width: 100%;
+}
+
+main{
+    border:1px dashed gray;
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/*featured pages in a circle*/
+.central-featured{
+    position: relative;
+    width: 450px;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 190px;
+}
+
+.central-featured div{
+    position: absolute;
+}
+
+#featured1{
+    top: 0%;
+    right: 65%;
+}
+#featured2{
+    top: 0%;
+    left: 65%;
+}
+#featured3{
+    top: 15%;
+    right: 75%;
+}
+#featured4{
+    top: 15%;
+    left: 75%;
+}
+#featured5{
+    top: 35%;
+    right: 80%;
+}
+#featured6{
+    top: 35%;
+    left: 80%;
+}
+#featured7{
+    top: 55%;
+    right: 75%;
+}
+#featured8{
+    top: 55%;
+    left: 75%;
+}
+#featured9{
+    top: 70%;
+    right: 65%;
+}
+#featured10{
+    top: 70%;
+    left: 65%;
+}
+
+/* Search bar*/
+input[type=text] {
+  width: 80%;
+  box-sizing: border-box;
+  border: 2px solid #e77e7e;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #fff5e6;
+  background-image: url(src/searchicon.png);
+  background-size: 20px 20px;
+  background-position: 10px 15px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  cursor: pointer;
+}
+/* Prosiren search bar*/
+input[type=text]:focus {
+  width: 100%;
+}
+
+footer span{
+    padding: 10%;
+}
+
+a:link{color: #df5353;}
+
+a:visited{color: #9e49d8;}
+
+a:hover{color: hotpink;}
